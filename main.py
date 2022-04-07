@@ -39,13 +39,6 @@ def sign_in():
     if logged_in:
         print("You are logged.")
         return login
-        #  Are you want send application? (yes/no)
-        # send_application = input()
-        # if send_application.lower() == "yes" or send_application.lower() == "no":
-        #     print("Please stand by.")
-        #     return True
-        # print("You entered something other than yes/no!")
-        # print("Try again.")
     print("You have entered the wrong username or password.")
     sleep(2)
 
